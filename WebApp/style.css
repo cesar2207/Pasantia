@@ -1,0 +1,287 @@
+body {
+    background-image: url("Fondo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: auto;
+}
+
+.content {
+    width: 92%;
+    margin: auto;
+    opacity: 0.9;
+    background: ghostwhite;
+    border-left: #6c5740 1px solid;
+    border-right: #6c5740 1px solid;
+    border-top: #6c5740 1px solid;
+    border-bottom: #6c5740 1px solid;
+}
+
+.head {
+    margin-bottom: none;
+    padding: none;
+    opacity: 1;
+}
+
+.head-2 {
+    margin-bottom: none;
+    padding: none;
+    opacity: 1;
+    background: sienna;
+}
+
+.access {
+    width: 60%;
+    margin: auto;
+    height: 10%;
+    text-align: center;
+    opacity: 1;
+}
+
+.foot {
+    text-align: center;
+}
+
+h1.main {
+    font-family: "Century Gothic";
+    font-weight: normal;
+    text-align: center;
+    padding: 35px 35px;
+    color: dimgray;
+}
+
+.access-main {
+    text-align: center;
+    padding: 50px 50px;
+    font-family: "Century Gothic";
+    text-decoration: none;
+    color: dimgray;
+    background-color: gainsboro;
+    font-weight: bold;
+}
+
+h6 {
+    text-align: center;
+}
+
+a {
+    font-family: 'Century Gothic';
+}
+
+a.ini {
+    text-decoration: none;
+    color: dimgray;
+}
+
+a.Reg {
+    text-decoration: none;
+    float: right;
+    color: black;
+}
+
+a.Ing {
+    text-decoration: none;
+    float: right;
+    color: black;
+}
+
+.flex {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    overflow: auto;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.452);
+}
+
+.contenido-modal {
+    position: relative;
+    background-color: ghostwhite;
+    margin: auto;
+    width: 50%;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .4);
+    animation-name: modal;
+    animation-duration: 1s;
+}
+
+@keyframes modal {
+    from {
+        top: -330px;
+        opacity: 0;
+    }
+    to {
+        top: 0;
+        opacity: 1;
+    }
+}
+
+.modal-head {
+    margin: 0;
+    padding: 0;
+    background: none;
+    text-align: center;
+}
+
+.cerrar {
+    position: absolute;
+    top: 0;
+    right: 22px;
+    font-size: 50px;
+    margin-left: 50px;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.cerrar:hover {
+    cursor: pointer;
+}
+
+.modal-Header,
+.modal-Footer {
+    padding: 5px 12px;
+    background: sienna;
+    color: white;
+    font-family: "Century Gothic";
+}
+
+.modal-Body {
+    font-family: "Century Gothic";
+    align-content: center;
+    text-align: center;
+    padding: 40px 10px;
+    margin: auto;
+}
+
+.ingresar {
+    padding: 10px 20px;
+    background: sienna;
+    color: white;
+    font-family: "Century Gothic";
+}
+
+.side-nav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background: sienna;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+    color: white;
+}
+
+.side-nav a {
+    float: left;
+    padding: 30px 50px;
+    text-decoration: none;
+    font-family: "Century Gothic";
+    font-size: 22px;
+    color: white;
+    display: block;
+    transition: 0.5s;
+}
+
+.side-nav .btn-cerrar {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    padding: 10px;
+    font-size: 30px;
+    color: black;
+    margin-left: 50px;
+}
+
+.head-2 h1 {
+    margin: 0;
+    width: 300px;
+    padding: 35px;
+    font-family: "Century Gothic";
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 135px;
+    font-size: 50px;
+    font-weight: normal;
+}
+
+.menu {
+    padding: 20px;
+}
+
+.content-historia {
+    padding: 40px;
+    width: 90%;
+    text-align: justify;
+    font-family: "century Gothic";
+    text-indent: 20px;
+}
+
+footer {
+    text-align: center;
+}
+
+.video {
+    display: block;
+    padding-left: 28%;
+}
+
+.content-miCuenta {
+    padding: 2% 0 0 12%;
+    width: 75%;
+    text-align: left;
+    font-family: "Century Gothic";
+}
+
+.check-box {
+    width: 40%;
+    padding: 2% 0 0 22%;
+}
+
+.content-miCuenta input[type=text] {
+    margin: 10px 0 10px 0;
+    width: 50%;
+    font-size: 20px;
+    padding: 0;
+}
+
+.check-box label {
+    margin: 0 10px 0 0;
+    display: box;
+    width: 20%;
+}
+
+.content-miCuenta select {
+    padding: 0;
+}
+
+.content-miCuenta input[type=button] {
+    text-align: center;
+    padding: 10px 20px;
+    background: sienna;
+    color: white;
+    font-family: "Century Gothic";
+}
+
+.datos {
+    padding: 0 0 0 15%;
+}
+
+.btn_cuenta {
+    padding: 2% 0 0 27.5%;
+}

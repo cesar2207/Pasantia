@@ -1,0 +1,31 @@
+    <div class="content">
+        <div class="head-2">
+            <a id="menu" href="#"><img class="menu" src="Menu.png" alt="Menu"></a>
+            <h1>HISTORIA</h1>
+        </div>
+    </div>
+    <div id="side-menu" class="side-nav">
+        <a href="#" id="btn-cerrar" class="btn-cerrar">&times;</a>
+        <a href="#">INICIO</a>
+        <a href="#">CUENTA</a>
+        <a href="#">NUESTROS BOMBONES</a>
+        <a href="#">PEDIDOS</a>
+        <a href="#">EVENTOS</a>
+        <a href="#">TEMORADA</a>
+
+    </div>
+    <script src="side-bar.js"></script>
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////77
+
+Historia
+
+
+Desde el siglo XVII el cacao venezolano ha gozado de fama mundial y desde entonces ha sido uno de los productos más cotizados de exportación.
+Como una necesidad de brindar a los venezolanos productos de calidad, con el mejor cacao del mundo y las técnicas de reconocidos maestros chocolateros belgas, surge La Praline Chocolatier en el año 1985.
+Inicialmente los pralinés o bombones eran elaborados en casa hasta que en 1988 se inaugura la primera tienda en Los Palos Grandes. Actualmente, La Praline se encuentra también en Valencia y en el Aeropuerto Internacional Maiquetía.
+Son más de 80 variedades de bombones y empaques diversos desde los más tradicionales hasta piezas de artistas venezolanos, que se convierten en el detalle especial para cada ocasión: Día de San Valentín, Pascua, Día de las Madres, Navidad, celebraciones, bautizos, bodas o regalos corporativos.
+Estamos orgullosos de ser nominados una de las mejores chocolaterías del mundo, y de poder contar con el aroma del cacao venezolano.
+La tradición, la calidad, variedad y servicio personalizado, han hecho de La Praline Chocolatier, la chocolatería de referencia en Venezuela.
+
+*Contamos con certificación Kosher

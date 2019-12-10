@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>La Praline - Registro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="content">
+        <div class="head-2">
+            <a id="menu" href="#"><img class="menu" src="Menu.png" alt="Menu"></a>
+            <h1>REGISTRARSE</h1>
+        </div>
+        <div class="content-miCuenta">
+            Ingrese sus Datos:
+            <div class="datos">
+                <form>
+                    <br> NOMBRE: <input type="text" class="datos" name="nombre"> <br> APELLIDO: <input type="text" class="datos" name="apellido"> <br> CEDULA/RIF: <input type="text" class="datos" name="identificacion"> <br> TIPO PERSONA:
+                    <select class="datos" name="cedula_rif" id="cedula_rif">
+                    <option value="Cedula">Natural</option>
+                    <option value="Rif">Jurídica</option>
+                    </select> <br> e-MAIL: <input class="datos" type="text" name="e-Mail"> <br> CONTRASEÑA: <input class="datos" type="text" name="contraseña"><br> REPETIR CONTRASEÑA: <input type="text" name="r_contraseña"> <br> PREFERENCIAS:
+
+
+                    <br>
+                    <div class="check-box">
+                        <input type="checkbox" name="oscuro" id="oscuro" value="Osucro">
+                        <label for="oscuro">Oscuro</label>
+                        <input type="checkbox" name="con_leche" id="con_leche" value="Con Leche">
+                        <label for="con_leche">Con Leche</label><br>
+                        <input type="checkbox" name="blanco" id="blanco" value="Blanco">
+                        <label for="blanco">Blanco</label>
+                        <input type="checkbox" name="frutales" id="frutales" value="Frutales">
+                        <label for="frutales">Frutales</label><br>
+                        <input type="checkbox" name="con_sal" id="con_sal" value="Con Sal">
+                        <label for="con_sal">Con Sal</label>
+                        <input type="checkbox" name="picante" id="picante" value="Picante">
+                        <label for="picante">Picante</label><br>
+                        <input type="checkbox" name="licor" id="licor" value="Licor">
+                        <label for="licor">Licor   </label>
+                        <input type="checkbox" name="sin_azucar" id="sin_azucar" value="Sin Azucar">
+                        <label for="sin_azucar">Sin Azúcar</label>
+                    </div>
+
+                    <br>
+                    <div class="btn_cuenta">
+                        <input type="button" value="REGISTRAR" id="guardar">
+                        <input type="button" value="CANCELAR" id="cancelar">
+                    </div>
+            </div>
+
+
+            </form>
+        </div>
+        <footer>La Praline Chocolatier</footer>
+
+    </div>
+    <div id="side-menu" class="side-nav">
+        <a href="#" id="btn-cerrar" class="btn-cerrar">&times;</a>
+        <a href="index.html">INICIO</a>
+        <a href="Historia.html">CUENTA</a>
+        <a href="#">NUESTROS BOMBONES</a>
+        <a href="#">PEDIDOS</a>
+        <a href="#">EVENTOS</a>
+        <a href="#">TEMORADA</a>
+
+    </div>
+    <script src="side-bar.js"></script>
+</body>
+
+</html>
